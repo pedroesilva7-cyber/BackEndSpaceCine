@@ -1,8 +1,8 @@
 public class combo {
 
-    public int preço;
-    public String tipo_combo;
-    public String brindes;
+    private int preço;
+    private String tipo_combo;
+    private String brindes;
 
     public int getPreço() {
         return preço;

@@ -1,13 +1,13 @@
 public class filme {
 
-   public String nome;
-   public Enum generoFilme;
-   public double duraçao;
-    public String idioma;
-    public String sinopse;
-    public String produtora;
-    public String data_estreia;
-    public String elenco_equipe;
+    private String nome;
+    private Enum generoFilme;
+    private double duraçao;
+    private String idioma;
+    private String sinopse;
+    private String produtora;
+    private String data_estreia;
+    private String elenco_equipe;
     //CONSRUTOR VAZIO
 public filme (){
 

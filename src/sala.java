@@ -1,8 +1,8 @@
 public class sala {
 
-    public String assentos;
-    public String informacoesSala;
-    public Enum tipoSala;
+    private String assentos;
+    private String informacoesSala;
+    private Enum tipoSala;
 
     public String getAssentos() {
         return assentos;

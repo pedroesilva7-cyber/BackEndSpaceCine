@@ -1,9 +1,9 @@
 public class avaliaçao {
 
-    public String usuario;
-    public String estrela;
-    public String resenha;
-    public String data_resenha;
+    private String usuario;
+    private String estrela;
+    private String resenha;
+    private String data_resenha;
 
     public String getUsuario() {
         return usuario;
@@ -15,10 +15,6 @@ public class avaliaçao {
 
     public String getResenha() {
         return resenha;
-    }
-
-    public String getData_resenha() {
-        return data_resenha;
     }
 
     public void setUsuario(String usuario) {
@@ -37,11 +33,8 @@ public class avaliaçao {
         this.data_resenha = data_resenha;
     }
 
-    public avaliaçao(String usuario, String estrela, String resenha, String data_resenha) {
-        this.usuario = usuario;
-        this.estrela = estrela;
-        this.resenha = resenha;
-        this.data_resenha = data_resenha;
+    public String getData_resenha() {
+        return data_resenha;
 
     }
 }

@@ -1,15 +1,15 @@
 import java.time.LocalDate;
 
 public class usuario {
-  public String nome;
-  public String cpf;
-  public String nomeSocial;
-  public LocalDate dataNascimento;
-  public String email;
-  public int telefone;
-  public int id;
-  public int cep;
-  public Genero genero;
+    private String nome;
+    private String cpf;
+    private String nomeSocial;
+    private LocalDate dataNascimento;
+    private String email;
+    private int telefone;
+    private int id;
+    private int cep;
+    private Genero genero;
 
     public String getNome() {
         return nome;

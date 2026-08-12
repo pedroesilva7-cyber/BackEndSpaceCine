@@ -1,11 +1,11 @@
 public class cartaz {
 
-    public String titulo;
-    public String imagem;
-    public String classificaçao;
-    public int data_estreia;
-   public String genero;
-   public String duraçao;
+    private String titulo;
+    private String imagem;
+    private String classificaçao;
+    private int data_estreia;
+    private String genero;
+    private String duraçao;
 
     public String getTitulo() {
         return titulo;
